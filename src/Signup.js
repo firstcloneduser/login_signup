@@ -12,7 +12,8 @@ const Signup = () => {
 
     return (
         <div>
-            <h2>Signup</h2>
+            <h1 className="spardha">Spardha</h1>
+            <h2 className="head">Signup</h2>
         <form className="register-form" onSubmit={handleSubmit}>
             <label htmlFor="name">Full name</label>
             <input value={name} name="name" onChange={(e) => setName(e.target.value)} id="name" placeholder="full Name" />
