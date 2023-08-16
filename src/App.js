@@ -2,7 +2,7 @@ import './App.css';
 import Login from './Login';
 import Signup from './Signup';
 import Footer from './Footer';
-import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import { HashRouter as Router,Routes,Route} from 'react-router-dom';
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <div className="App ">
         <div className='container'>
         <Routes>
-          <Route path='http://firstcloneduser.github.io/task_login' exact element={<Login />}/>
+          <Route path='/' exact element={<Login />}/>
 
-          <Route path='http://firstcloneduser.github.io/task_login/signup' element={<Signup />}/>
+          <Route path='/signup' element={<Signup />}/>
         </Routes>
         <Footer />
         </div>
