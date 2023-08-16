@@ -10,10 +10,9 @@ function App() {
       <div className="App ">
         <div className='container'>
         <Routes>
-          <Route path='/task_login' element={<Login />}/>
-          <Route path='/' element={<Login />}/>
+          <Route path='http://firstcloneduser.github.io/task_login' exact element={<Login />}/>
 
-          <Route path='/signup' element={<Signup />}/>
+          <Route path='http://firstcloneduser.github.io/task_login/signup' element={<Signup />}/>
         </Routes>
         <Footer />
         </div>
