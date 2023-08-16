@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
         <div className="hello" >
-            {location.pathname==='/' && (<Link to='/signup' >Don't have an account? singup here.</Link>)}
+            {location.pathname==='/task_login' && (<Link to='/signup' >Don't have an account? singup here.</Link>)}
             {location.pathname==='/signup' && (<Link to='/' >Already have an account? Login here.</Link>)}
 
         </div>
